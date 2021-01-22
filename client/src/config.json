@@ -1,0 +1,11 @@
+{
+  "get": {
+    "production": "/gettask/",
+    "development": "http://127.0.0.1:8000/get_task?format=json"
+  },
+  "submit": {
+    "production": "/gettask/",
+    "development": "http://127.0.0.1:8000/put_task/"
+  },
+  "server": null
+}
